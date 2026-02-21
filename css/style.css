@@ -386,9 +386,8 @@ p
   {
     display: block;
     padding: 20px 0 20px 0;
-     /* --- 新增以下三行 --- */
-    font-size: 16px;      /* 建議設置為 18px 到 22px 之間 */
-    line-height: 1.3;     /* 增加行高，讓多行文字閱讀更舒服 */
+    font-size: 16px;      
+    line-height: 1.3;    
   }
 #pricing .plan .btn
   {
@@ -684,14 +683,13 @@ footer .social-icon
 /* 2. 动态图片样式：核心部分 */
 .dynamic-photo {
     width: 100%;
-    height: 260px;       /* 【关键】强制固定高度，您可以根据需要修改这个数值 */
-    object-fit: cover;   /* 【关键】裁剪图片以填满容器，保持比例不拉伸 */
+    height: 260px;       /* 强制固定高度 */
+    object-fit: cover;   /* 裁剪图片以填满容器 */
     display: block;
     transition: opacity 0.8s ease-in-out; /* 淡入淡出动画时间 */
     opacity: 1;          /* 默认不透明 */
 }
 
-/* 3. 遮罩层微调：确保文字垂直居中 */
 #portfolio .portfolio-overlay {
     display: flex;       /* 使用 Flex 布局 */
     align-items: center; /* 垂直居中 */
